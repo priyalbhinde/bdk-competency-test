@@ -1,0 +1,10 @@
+[package]
+name = "bdk-wallet-1x"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bdk_wallet = { version = "1.0.0", features = ["keys-bip39"] }
+bitcoin = "0.32.0"
+rand = "0.8"
+anyhow = "1.0"

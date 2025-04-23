@@ -1,0 +1,7 @@
+[package]
+name = "bdk-wallet-0x"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bdk = { version = "0.28.0", features = ["keys-bip39"] }
