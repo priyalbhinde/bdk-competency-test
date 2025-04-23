@@ -26,8 +26,8 @@ The goal is to highlight key differences, challenges, and solutions encountered 
 ----------------------
 
 ### 1\. Clone the Repository
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com//bdk-competency-test.git  cd bdk-competency-test   `
+  
+  `   git clone https://github.com//bdk-competency-test.git  cd bdk-competency-test   `
 
 ### 2\. Build a Wallet
 
@@ -40,13 +40,13 @@ Navigate to the desired wallet directory:
 
 Install dependencies:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cargo build   `
+`   cargo build   `
 
 ### 3\. Run the Wallet
 
 Execute the wallet (edit src/main.rs for testnet/mainnet):
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cargo run   `
+`   cargo run   `
 
 Expect outputs like generated addresses and wallet balance.
 
@@ -154,8 +154,3 @@ Migrating from BDK 0.x to 1.x involves adapting to new APIs, improved descriptor
     
 *   [Bria Repository](https://github.com/GaloyMoney/bria)
     
-
-📜 License
-----------
-
-MIT License
